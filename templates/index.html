@@ -1,6 +1,262 @@
 {%  extends "base.html"  %}
 {%  block content  %}
-    <h1>Home Page</h1>
+     <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="{{ url_for('static', filename='images/1412019519aax7e.jpg') }}">
+                <div class="caption center-align">
+                    <h3>This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="{{ url_for('static', filename='images/1399827845b0i1k.jpg') }}">
+                <div class="caption left-align">
+                    <h3>Left Aligned Caption</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="{{ url_for('static', filename='images/1397154567yttyy.jpg') }}">
+                <div class="caption right-align">
+                    <h3>Right Aligned Caption</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="{{ url_for('static', filename='images/1415117217bc45x.jpg') }}">
+                <div class="caption center-align">
+                    <h3>This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+    <br>
+    <br>
+
+    <div id="ourTeam" class="container section scrollspy">
+
+        <h6 class="center-align ourTeam"> Our team</h6>
+        <div class="row">
+
+            <div class="col s12 m4">
+                <div class="card-panel purple lighten-3 z-depth-4">
+                    <div class="row valign-wrapper">
+                        <div class="col s4">
+                            <img src="{{ url_for('static', filename='images/1380646983g6nym.jpg') }}" alt=""
+                                class="circle responsive-img"> <!-- notice the "circle" class -->
+                        </div>
+                        <div class="col s8">
+                            <span class="black-text">
+                                This is a square image. Add the "circle" class to it to make it appear circular.
+
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col s12 m4">
+                <div class="card-panel purple lighten-3 z-depth-4">
+                    <div class="row valign-wrapper">
+                        <div class="col s4">
+                            <img src="{{ url_for('static', filename='images/1401132127bw9jx.jpg') }}" alt=""
+                                class="circle responsive-img"> <!-- notice the "circle" class -->
+                        </div>
+                        <div class="col s8">
+                            <span class="black-text">
+                                This is a square image. Add the "circle" class to it to make it appear circular.
+
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="col s12 m4">
+                <div class="card-panel purple lighten-3 z-depth-4">
+                    <div class="row valign-wrapper">
+                        <div class="col s4">
+                            <img src="{{ url_for('static', filename='images/14011332194m9o3.jpg') }}" alt=""
+                                class="circle responsive-img"> <!-- notice the "circle" class -->
+                        </div>
+                        <div class="col s8">
+                            <span class="black-text">
+                                This is a square image. Add the "circle" class to it to make it appear circular.
+
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <!--container-->
+
+
+
+    <br>
+    <br>
+
+
+    <div id="ourProjectss" class="section scrollspy">
+        <div class="container">
+            <h6 class="ourProjects">Our projects</h6>
+            <br>
+            <br>
+            <div class="row">
+
+
+                <div class="col s12 m4">
+
+                    <ul class="demo-3">
+                        <li>
+                            <figure>
+                                <img src="{{ url_for('static', filename='images/project1.jpg') }}"
+                                    class="responsive-img" alt="" />
+                                <figcaption>
+                                    <h2>Project title</h2>
+
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="col s12 m4">
+
+                    <ul class="demo-3">
+                        <li>
+                            <figure>
+                                <img src="{{ url_for('static', filename='images/project2.jpg') }}"
+                                    class="responsive-img" alt="" />
+                                <figcaption>
+                                    <h2>Project title</h2>
+
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col s12 m4">
+
+                    <ul class="demo-3">
+                        <li>
+                            <figure>
+                                <img src="{{ url_for('static', filename='images/project3.jpg') }}"
+                                    class="responsive-img" alt="" />
+                                <figcaption>
+                                    <h2>Project title</h2>
+
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <!--row-->
+
+            <div class="center">
+                <a class="waves-effect waves-light btn purple lighten-1">View more</a>
+            </div>
+        </div>
+        <!--container-->
+    </div>
+
+    <br>
+    <br>
+
+    <div class="parallax-container section scrollspy valign-wrapper" id="aboutus">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="center row col s3">
+
+                    <h3 class="aboutUs">About Us</h3>
+                </div>
+                <div class="center row col s12" style="color: white;">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="parallax"><img src="{{ url_for('static', filename='images/images.jpg') }}" alt="img"></div>
+    </div>
+
+    <br>
+
+
+
+
+    <div class="container section scrollspy" id="contactus">
+        <div>
+            <br>
+            <br>
+            <h2 class="center contactUs">Contact Us</h2>
+            <p class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
+                tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="row">
+
+                <form class="col s8 offset-s2">
+
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="name" type="text" class="validate">
+                            <label for="name">Your Name</label>
+                        </div>
+
+
+                        <div class="input-field col s6">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Your Email</label>
+                        </div>
+                    </div>
+                    <!--row-->
+
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="message-sub" type="email" class="validate">
+                            <label for="message-sub">Message Subject</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <textarea id="text_area" class="materialize-textarea"></textarea>
+                            <label for="text_area">Your Message</label>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <a class="waves-effect waves-light btn purple lighten-1">Send Message<i
+                                class="mdi-content-send right"></i></a>
+                    </div>
+                </form>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
 {%  endblock  %}
 
 
